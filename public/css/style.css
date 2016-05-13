@@ -1,0 +1,121 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width:100%;
+    height: 50px;
+    background: #46b8da;
+    float: left;
+    border-bottom: 1px solid #eee;
+}
+
+.content{
+    width:720px;
+    background: #eee;
+    height: 181px;
+    padding-bottom: 17px;
+    margin: auto;
+    border: 1px solid #ddddd9;
+}
+
+.header .container-header{
+    width: 720px;
+    height: 100%;
+    background: #31b0d5;
+    margin:auto;
+    border-left: 1px solid #45a4de;
+    border-right: 1px solid #45a4de;
+}
+
+.header .container-header .container-link a{
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header .container-header .container-link a:hover{
+    color: #5ec5f1;
+}
+
+.header div .container-link{
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    background: #4b99d6;
+}
+
+.content .title{
+    width: 100%;
+    height:30px;
+    background: #e3e3e3;
+    float: left;
+    border-top: 1px solid #ddddd9;
+    border-bottom: 1px solid #ddddd9;
+    margin-top: 6px;
+}
+
+.content .title span{
+    color: #346dff;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+input[type='text']{
+    border:1px solid #9E9E9E;
+    color: #000000;
+    padding: 5px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-family: Verdana;
+    background: #FFF;
+    width: 695px;
+    margin-left: 6px;
+}
+
+input[type='submit']{
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: #31b0d5;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #eee;
+    height: 35px;
+    width: 186px;
+    cursor: pointer;
+    float: right;
+    margin-right: 6px;
+}
+
+input[type='submit']:hover { background: rgb(232,95,76); }
+input[type='submit']:active { background: rgb(152,15,0); }
+
+.my-url-content{
+    width:99.9%;
+    height: 200px;
+    border: 1px solid #eee;
+    margin-top: 2px;
+    float: left;
+}
+
+.title .p{
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#add{
+    background: #f0ad4e;
+    display: none;
+}
+
